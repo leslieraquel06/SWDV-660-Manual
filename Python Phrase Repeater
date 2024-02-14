@@ -1,0 +1,4 @@
+EnterPhrase = input('Input your phrase: ')
+TimesRepeated = int(input('How many times should it be repeated? '))
+for index in range(TimesRepeated):
+    print(str(index + 1 )+ " ", EnterPhrase)
